@@ -1,0 +1,33 @@
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover&quot;&gt;
+    &lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://developers.google.com https://storage.googleapis.com 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://cdn.jsdelivr.net https://storage.googleapis.com https://*.googleapis.com wss:; worker-src 'self' blob:; frame-src 'none'; child-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content;&quot;&gt;
+    &lt;meta http-equiv=&quot;X-Content-Type-Options&quot; content=&quot;nosniff&quot;&gt;
+    &lt;meta http-equiv=&quot;X-Frame-Options&quot; content=&quot;DENY&quot;&gt;
+    &lt;meta http-equiv=&quot;Referrer-Policy&quot; content=&quot;strict-origin-when-cross-origin&quot;&gt;
+    &lt;meta http-equiv=&quot;Permissions-Policy&quot; content=&quot;camera=(self), microphone=(), geolocation=(), payment=()&quot;&gt;
+    &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#0f0f23&quot;&gt;
+    &lt;meta name=&quot;theme-color&quot; media=&quot;(prefers-color-scheme: light)&quot; content=&quot;#6366f1&quot;&gt;
+    &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+    &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black-translucent&quot;&gt;
+    &lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;Snap AR Filters&quot;&gt;
+    &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjkwIiBmaWxsPSIjRkZGRkZGIi8+CjxwYXRoIGQ9Ik0xMTggNzBDMTE4IDUxLjY1OCA5Mi4zNDEgMjUgNjEgMjVTNDEgNzAgNjEgNzZDNTYuODU0IDc2IDY1IDg1LjM1OCA2NSA5NkM2NSA5OS4zNDEgNzAuNjQxIDEwNSAxMDMgMTA1QzExMC4zNDEgMTA1IDExMiAxMDAuNjQ1IDExMiA5NkMxMTIgOTIuNjQ1IDEwNS4zNDEgODYgMTAzIDg2QzEwMCA4NiA5OSAxMDAuMzU4IDk5IDExMkM5OSAxMjQuNjQ1IDEwNS42NDEgMTMzIDEyMyAxMzNDMTM3LjM0MSAxMzMgMTQ1IDEyMy4zNTggMTQ1IDExMkMxNDUgMTAwLjY0NSAxMzkuMzQxIDkyIDEyMyA5MlMxMTggODYgMTE4IDcweiIgZmlsbD0iIzAwMDAwMCIvPgo8L3N2Zz4K&quot;&gt;
+    &lt;title&gt;Snap AR Filters - Viral APK Launch 🚀&lt;/title&gt;
+    &lt;script&gt;
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () =&gt; {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    &lt;/script&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14/vision_bundle.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
+    &lt;script type=&quot;module&quot; src=&quot;/src/main.tsx&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
